@@ -57,7 +57,7 @@ public class ListGempaActivity extends AppCompatActivity implements adapterListG
                 Log.e("success", t.getLocalizedMessage());
             }
         });
-2nd    }
+    }
 
     @Override
     public void onItemGempaClick(FeaturesItem gempa) {
