@@ -21,7 +21,7 @@
         android:id="@+id/waktuu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="44dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="@+id/lokasii"
         app:layout_constraintTop_toBottomOf="@+id/lokasii" />
@@ -57,7 +57,7 @@
         android:id="@+id/tsunaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="@+id/loongg"
         app:layout_constraintTop_toBottomOf="@+id/loongg" />
@@ -91,4 +91,68 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lokasii"
+        app:layout_constraintStart_toStartOf="@+id/lokasii" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/waktuu"
+        app:layout_constraintStart_toStartOf="@+id/waktuu" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnitudo"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/skalaa"
+        app:layout_constraintStart_toStartOf="@+id/skalaa" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/latiii"
+        app:layout_constraintStart_toStartOf="@+id/latiii" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/loongg"
+        app:layout_constraintStart_toStartOf="@+id/loongg" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potensi Tsunami"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tsunaa"
+        app:layout_constraintStart_toStartOf="@+id/tsunaa" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL Lengkap"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/uurrll"
+        app:layout_constraintStart_toStartOf="@+id/uurrll" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
