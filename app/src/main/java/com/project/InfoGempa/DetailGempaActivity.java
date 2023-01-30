@@ -62,8 +62,8 @@ public class DetailGempaActivity extends AppCompatActivity {
                     String lokasi = detailGempaResponse.getProperties().getPlace();
                     String waktu = detailGempaResponse.getProperties().getTime();
                     String skalaaa = detailGempaResponse.getProperties().getMag();
-                    String Laaatt = detailGempaResponse.getProperties().getLatitude();
-                    String Lonng = detailGempaResponse.getProperties().getLongitude();
+                    String Laaatt = detailGempaResponse.getProperties().getProducts().getOrigin().get(0).getProperties().getLatitude();
+                    String Lonng = detailGempaResponse.getProperties().getProducts().getOrigin().get(0).getProperties().getLongitude();
                     String tsunami = detailGempaResponse.getProperties().getTsunami();
                     String URL = detailGempaResponse.getProperties().getUrl();
 

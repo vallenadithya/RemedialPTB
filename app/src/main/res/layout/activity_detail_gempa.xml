@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#EEEF0808"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#B2EBF2"
         app:layout_constraintStart_toStartOf="@+id/lokasii"
         app:layout_constraintTop_toBottomOf="@+id/lokasii" />
 
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#EEEF0808"
         app:layout_constraintStart_toStartOf="@+id/waktuu"
         app:layout_constraintTop_toBottomOf="@+id/waktuu" />
 
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#B3E5FC"
         app:layout_constraintStart_toStartOf="@+id/skalaa"
         app:layout_constraintTop_toBottomOf="@+id/skalaa" />
 
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#B3E5FC"
         app:layout_constraintStart_toStartOf="@+id/latiii"
         app:layout_constraintTop_toBottomOf="@+id/latiii" />
 
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#EEEF0808"
         app:layout_constraintStart_toStartOf="@+id/loongg"
         app:layout_constraintTop_toBottomOf="@+id/loongg" />
 
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="TextView"
-        android:textColor="@color/lightgreen"
+        android:textColor="#B3E5FC"
         app:layout_constraintStart_toStartOf="@+id/tsunaa"
         app:layout_constraintTop_toBottomOf="@+id/tsunaa" />
 
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/lightgreen"
         android:text="Map"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,7 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/lightgreen"
         android:text="Back"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -110,7 +110,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lokasi"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/lokasii"
         app:layout_constraintStart_toStartOf="@+id/lokasii" />
@@ -120,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Waktu"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/waktuu"
         app:layout_constraintStart_toStartOf="@+id/waktuu" />
@@ -130,7 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Magnitudo"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/skalaa"
         app:layout_constraintStart_toStartOf="@+id/skalaa" />
@@ -140,7 +140,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Latitude"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/latiii"
         app:layout_constraintStart_toStartOf="@+id/latiii" />
@@ -150,7 +150,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Longitude"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/loongg"
         app:layout_constraintStart_toStartOf="@+id/loongg" />
@@ -160,7 +160,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Potensi Tsunami"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tsunaa"
         app:layout_constraintStart_toStartOf="@+id/tsunaa" />
@@ -170,7 +170,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="URL Lengkap"
-        android:textColor="@color/teal_200"
+        android:textColor="#64DD17"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/uurrll"
         app:layout_constraintStart_toStartOf="@+id/uurrll" />
