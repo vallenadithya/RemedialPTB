@@ -20,7 +20,7 @@ import retrofit2.Response;
 
 public class DetailGempaActivity extends AppCompatActivity {
 
-    Button backbutton, urlbutton;
+    Button backbutton, mapsButton;
     Intent getIntent;
 
 
@@ -75,8 +75,8 @@ public class DetailGempaActivity extends AppCompatActivity {
                     replacetsunami.setText(tsunami);
                     replaceUrl.setText(URL);
 
-                    urlbutton = findViewById(R.id.webbutton);
-                    urlbutton.setOnClickListener(new View.OnClickListener() {
+                    mapsButton = findViewById(R.id.webbutton);
+                    mapsButton.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             String url = URL+"/map";

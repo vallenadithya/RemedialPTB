@@ -13,7 +13,7 @@ import com.project.InfoGempa.pjModels.ListGempa.FeaturesItem;
 
 import java.util.ArrayList;
 
-public class adapterListGempa extends RecyclerView.Adapter<adapterListGempa.GempaViewHolder> {
+public class adapterListGempa extends RecyclerView.Adapter<adapterListGempa.GempaViewHolder>{
 
     private ArrayList<FeaturesItem> listGempa = new ArrayList<>();
 
@@ -47,15 +47,6 @@ public class adapterListGempa extends RecyclerView.Adapter<adapterListGempa.Gemp
         holder.lokasigempa.setText(gempa.getProperties().getPlace());
         holder.waktugempa.setText(gempa.getProperties().getTime());
         holder.skalagempa.setText(gempa.getProperties().getMag());
-
-//        holder..setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                listenerIM.onItemGempaClick(gempa);
-//            }
-//        });
-
     }
 
     @Override
